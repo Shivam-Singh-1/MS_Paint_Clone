@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+#toolbar {
+  margin: 10px;
+}
+canvas {
+  border: 1px solid #ccc;
+  cursor: crosshair;
+}
+label {
+  margin: 0 10px;
+}

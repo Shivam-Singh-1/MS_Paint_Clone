@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MS Paint clone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Drawing App</h1>
+    <div id="toolbar">
+      <label
+        >Color: <input type="color" id="colorPicker" value="#000000"
+      /></label>
+      <label
+        >Brush Size:
+        <input type="range" id="brushSize" min="1" max="50" value="5"
+      /></label>
+      <button id="clearBtn">Clear</button>
+      <button id="saveBtn">Save</button>
+    </div>
+    <canvas id="drawingCanvas" width="800" height="500"></canvas>
+
+    <script src="script.js"></script>
+  </body>
+</html>
